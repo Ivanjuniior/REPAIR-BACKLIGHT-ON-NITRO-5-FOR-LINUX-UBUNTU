@@ -14,3 +14,7 @@ Se no modulo referente a Nvidia estiver como Kernel drive in use: nvidia, tente 
 sudo nano /etc/default/grub
 
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_backlight=native
+
+sudo update-grub
+
+reboot
